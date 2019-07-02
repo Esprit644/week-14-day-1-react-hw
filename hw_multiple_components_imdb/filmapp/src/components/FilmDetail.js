@@ -5,9 +5,9 @@ class FilmDetail extends Component{
         //return <h1>Film Detail</h1>
         return (
             <div className="film">
-              <h4>{this.props.id}</h4>
+              <h4> {this.props.id}</h4>
               
-               <a href = {this.props.url}><p>{this.props.name}</p></a>
+               <a href = {this.props.url}><li>{this.props.name}</li></a>
             </div>
           );
     }
